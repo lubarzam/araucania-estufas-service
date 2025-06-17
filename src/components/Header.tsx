@@ -18,7 +18,7 @@ export const Header = () => {
             </div>
             <div className="flex items-center space-x-1">
               <Mail className="h-4 w-4" />
-              <span>contacto@estufasaraucania.cl</span>
+              <span>contacto@solucionesfarias.cl</span>
             </div>
           </div>
           <div className="text-primary font-medium">
@@ -33,7 +33,7 @@ export const Header = () => {
               <span className="text-white font-bold text-xl">🔥</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Estufas Araucanía</h1>
+              <h1 className="text-xl font-bold text-foreground">Soluciones Farias</h1>
               <p className="text-sm text-muted-foreground">40+ años de experiencia</p>
             </div>
           </div>

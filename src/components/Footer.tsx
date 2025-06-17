@@ -13,7 +13,7 @@ export const Footer = () => {
                 <span className="text-white font-bold text-lg">🔥</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Estufas Araucanía</h3>
+                <h3 className="text-xl font-bold">Soluciones Farias</h3>
                 <p className="text-gray-400 text-sm">40+ años de experiencia</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="text-gray-300">contacto@estufasaraucania.cl</span>
+                <span className="text-gray-300">contacto@solucionesfarias.cl</span>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-primary mt-1" />
@@ -74,7 +74,7 @@ export const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Estufas Araucanía. Todos los derechos reservados.
+              © 2024 Soluciones Farias. Todos los derechos reservados.
             </p>
             <p className="text-gray-400 text-sm mt-2 md:mt-0">
               Serving the Araucanía region with excellence since 1984
