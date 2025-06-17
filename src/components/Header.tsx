@@ -46,6 +46,9 @@ export const Header = () => {
             <a href="#servicios" className="text-foreground hover:text-primary transition-colors font-medium">
               Servicios
             </a>
+            <a href="#galeria" className="text-foreground hover:text-primary transition-colors font-medium">
+              Galería
+            </a>
             <a href="#experiencia" className="text-foreground hover:text-primary transition-colors font-medium">
               Experiencia
             </a>
@@ -75,6 +78,9 @@ export const Header = () => {
               </a>
               <a href="#servicios" className="text-foreground hover:text-primary transition-colors font-medium">
                 Servicios
+              </a>
+              <a href="#galeria" className="text-foreground hover:text-primary transition-colors font-medium">
+                Galería
               </a>
               <a href="#experiencia" className="text-foreground hover:text-primary transition-colors font-medium">
                 Experiencia

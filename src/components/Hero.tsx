@@ -1,8 +1,15 @@
 
 import { Button } from "@/components/ui/button";
-import { Phone, CheckCircle } from "lucide-react";
+import { Phone, CheckCircle, MessageCircle } from "lucide-react";
 
 export const Hero = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "56945123456"; // Reemplazar con el número real
+    const message = "Hola, me interesa información sobre servicios de estufas a leña";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  };
+
   return (
     <section id="inicio" className="hero-gradient text-white py-20">
       <div className="container mx-auto px-4">
@@ -36,6 +43,14 @@ export const Hero = () => {
             <Button size="lg" className="bg-white text-primary hover:bg-orange-50 text-lg px-8 py-3">
               <Phone className="mr-2 h-5 w-5" />
               Llamar Ahora
+            </Button>
+            <Button 
+              size="lg" 
+              className="bg-green-500 hover:bg-green-600 text-white text-lg px-8 py-3"
+              onClick={handleWhatsAppClick}
+            >
+              <MessageCircle className="mr-2 h-5 w-5" />
+              WhatsApp
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-3">
               Ver Servicios
